@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#principal {
+    background-color: #007090;
+    padding: 50px;
+    width: auto;
+    height: 60px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 40px;
+    top: -30px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    float: right;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+#caixa1 {
+    background-color: #006989;
+    width: 300px;
+    height: 410px;
+    position: absolute;
+    left: 200px;
+    bottom: 29px;
+    float: left;
+    transition: all .2s ease-in-out;
+}
+
+#caixa2 {
+    width: 300px;
+    height: 410px;
+    position: absolute;
+    right: 200px;
+    bottom: 29px;
+    float: right;
+    transition: all .2s ease-in-out;
+}
+
+#caixa1:hover, #caixa2:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: #eaebed;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.text-line {
+    background-color: transparent;
+    color: #000000;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #007090 1px;
+    padding: 9px 15px;
+    padding-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.inputs{
+    float: left;
+    padding-top: 50px;
+}
